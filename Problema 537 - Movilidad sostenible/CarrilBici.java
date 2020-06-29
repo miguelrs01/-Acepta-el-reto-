@@ -15,7 +15,7 @@ public class CarrilBici
         ArrayList puntosRecorridos = new ArrayList<>();
         boolean correcto = true;
         try {
-        BufferedReader br = new BufferedReader (new FileReader ("/home/gandalf/Desktop/DATOS.txt"));
+        BufferedReader br = new BufferedReader (new FileReader ("sample.in"))
         //leo la linea y compruebo que no esta vacia (fin del fichero)
         while((linea = br.readLine())!=null){
             StringTokenizer st = new StringTokenizer (linea);
